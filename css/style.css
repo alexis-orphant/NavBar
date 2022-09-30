@@ -1,1 +1,27 @@
+:root{
+    --colorNegro : rgb(34, 34, 34);
+    --colorBlanco: white;
+    --colorGris: rgb(202, 202, 202);
+}
 
+.fondo{
+    background-color: var(--colorNegro);
+    color: var(--colorBlanco);
+}
+
+.light-mode{
+    background-color: var(--colorGris);
+    color: var(--colorNegro);
+}
+
+.colorBtn{
+    margin-right: 10px;
+    background-color: var(--colorBlanco);
+    color: black;
+}
+
+.colorBtnLinght{
+    margin-right: 10px;
+    background-color:var(--colorNegro);
+    color: var(--colorBlanco);
+}
