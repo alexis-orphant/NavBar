@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="w-screen h-full py-4 bg-black text-white flex justify-between items-center">
+        <div class="pl-4 logo">
+            <p class="text-4xl font-bold">Logo</p>
+        </div>
+        <div class="links">
+            <ul class="hidden  sm:flex text-2xl ">
+                <li class="mx-2">
+                    <a href="">Home</a>
+                </li>
+                <li class="mx-2">
+                    <a href="">Products</a>
+                </li>
+                <li class="mx-2">
+                    <a href="">About</a>
+                </li>
+                <li class="mx-2">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="redes">
+            <ul class="hidden sm:flex sm:flex text-2xl pr-4 redes">
+                <li class="mx-2">
+                    <a href="#">Twitter</a>
+                </li>
+                <li class="mx-2">
+                    <a href="#">Instagram</a>
+                </li>
+                <li class="mx-2">
+                    <a href="#">Youtube</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sm:hidden z-10 pr-4">
+            <button class="btn-hamburguesa nav-toggle ">
+                <i class="fas fa-bars cursor-pointer hover:rotate-90 duration-300"></i>
+            </button>
+        </div>
+
+        <!-- mobile menu-->
+            <ul id="mobile" class="hidden">
+                <li className="py-6 text-4xl">
+                    <a>Home</a>
+                </li>
+                <li className="py-6 text-4xl">
+                    <a>Products</a>
+                </li>
+                <li className="py-6 text-4xl">
+                    <a>About</a>
+                </li>
+                <li className="py-6 text-4xl">
+                    <a>Contact</a>
+                </li>
+            </ul>
+        </header>
+
+    </header>
+
+    <!-- javascript -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
