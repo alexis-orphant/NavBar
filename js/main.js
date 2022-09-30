@@ -17,7 +17,7 @@ btn.addEventListener("click", () => {
 
     // lo mismo de arriva pero con el operador ternario
         mobile.className === "hidden"
-            ? (mobile.className = `absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center text-2xl`)
+            ? (mobile.className = `absolute top-0 left-0 w-full h-screen bg-black text-white flex flex-col justify-center items-center text-2xl`)
             : (mobile.className = "hidden");
 
             console.log(mobile.className);
